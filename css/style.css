@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto|Source+Code+Pro');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-weight:bold; 
+  margin-bottom: 35%;
+  font-size: 5rem;
+  box-shadow: 0 4px 8px 0 rgba(193, 190, 190, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: 'Source Code Pro', sans-serif;
+}
+
+h5, .card-title {
+  text-align: center;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(193, 190, 190, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h4 {
+  text-align: left;
+}
+
+footer {
+  background-color: #d7e3ff;
+  color: white;
+}
+
+a {
+  font-family: 'Source Code Pro', sans-serif;
+}
+
+.fa-linkedin, .fa-github, .fa-paper-plane{
+  font-size: 2em;
+}
+
+.fa-book {
+  font-size: 5rem;
+}
+
+.fa-ball-pile {
+  color:  white;
+  font-size: 1.5em;
+}
+
+.fa-hands-usd {
+  color: white;
+  font-size: 5rem;
+}
+
+.fa-hands {
+  font-size: 18pt;
+  padding: 0.5rem;
+}
+
+.fa-bars {
+  color: rgb(0, 0, 0);
+}
+
+.titles {
+  display: block;
+  margin-bottom: 5%;
+}
+
+nav .nav-wrapper a.page-title {
+    font-size: 36px;
+    display: block;
+}
+
+nav {
+  text-align:center;
+  color: orange;
+}
+
+.title {
+    padding: .5rem;
+    text-align: center;
+}
+ 
+
+h2 {
+  font-weight:300pt;
+}
+
+footer.page-footer {
+  margin-top:0px;
+  padding-top:0px;
+
+}
+
+footer {
+    background: #fafbfc;
+    padding: 60px;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+    bottom: 0;
+    width: 100%;
+}
+
+
+ .container { 
+  margin-top:10rem;  
+  text-align: center;
+} 
+
+nav {
+  position:fixed;
+  top:0px;
+  width: 100%;
+  background-color: #e3f2fd;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+section {
+  margin-top:10rem;  
+  z-index: 0; 
+  text-align: center;
+  padding-bottom: 2rem;
+} 
+
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000000;
+}
+
+h5, h2, p {
+  color: rgb(0, 0, 0);
+}
+
+nav h2 {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 30pt;
+}
+
+
+.navbar-brand {
+  margin-right: 10px;
+  width: 5%;
+  height: 10%;
+}
+
+.navbar-brand img {
+  width: 30px;
+  height: 30px;
+}
+
+.nav-contain {
+  margin-top: 0;
+  color: white;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #dd8610;
+}
+
+#mainNav {
+  background-color: white;
+  color: #0d265f;
+}
+
+.navbar-light .navbar-nav .navbar-brand {
+  color: white;
+}
+
+.secondImg {
+  opacity: 0.5;
+}
+
+.landingpageImg {
+  opacity: 0.7;
+  filter: brightness(50%)
+}
+
+#carouselExampleIndicators {
+  box-shadow: 0 4px 8px 0 rgba(193, 190, 190, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#services ul {
+   margin-left: 15%;
+   margin-right: 15%;
+   box-shadow: 0 4px 8px 0 rgba(193, 190, 190, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h6 {
+  display: inline-block;
+}
+
+table {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+
+.badge-pill {
+  margin-right: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+  .icons {
+    display: inline;
+  }
+  .titles > h2 {
+    display: none;
+  }
+  #mainPageH1 {
+    font-weight: bold;
+    margin-bottom: 0%;
+    font-size: 1rem;
+    font-family: 'Source Code Pro', sans-serif;
+  }
+  .badge-pill {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .icons {
+    display: none;
+  }
+}
+
+/* 
+.logo_imgs img {
+  margin: 0.5rem 0rem 0 0rem; 
+}
+
+.logo {
+    width: 10%;
+}
+
+
+
+footer p {
+  font-family: 'Lato', sans-serif;
+  color: rgb(164, 164, 164);
+}
+
+
+
+.contact {
+  text-align: 'left'
+}
+
+strong {
+  font-style: italic;
+}
+
+#use_form {
+  text-align: center;
+  margin-top: 1rem;
+  padding-top: 2rem;
+}
+
+.lead {
+  color: white;
+}
+
+.navbar-light .nav_brand {
+  color: #000607;
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+.navbar-toggler {
+  color: #02b6db;
+  border-color: #02b6db;
+}
+
+.px1 {
+  padding-left: .5rem;
+  padding-right: .5rem;
+  padding: .5rem;
+  display: inline;
+}
+
+.flex {
+  padding-top: 1rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .icons {
+    display: inline;
+  }
+  .titles > h2 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .icons {
+    display: none;
+  }
+}
+
+
+#books ul a {
+    padding: 0.5rem;
+    font-family: 'Source Code Pro', sans-serif;
+    color: blue;
+}
+#books ul li p {
+  color: blue;
+}
+
+#books ul a:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 18px;
+  color: blue;
+  text-decoration: none;
+}
+
+#development ul li:hover, #security_tr ul li:hover, #data_science ul li:hover  {
+  box-shadow: 0 4px 8px 0 rgba(193, 190, 190, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-weight: bold;
+}
+
+
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(193, 190, 190, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card {
+  border: 0px solid rgba(0,0,0,.125);
+  padding: 0;
+}
+
+.card-img-top {
+  padding-top: .8em;
+}
+
+
+#home { 
+  margin-bottom: 25rem;
+}
+
+#development ul li, 
+#data_science, #security_tr ul li {
+  font-family: 'Source Code Pro', sans-serif;
+}
+
+
+
+.bd-placeholder-img:hover, .rounded-circle:hover {
+  box-shadow: 8px 8px 8px 8px rgba(193, 190, 190, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bio_sec {
+  text-align: justify;
+}
+
+
+#experience ul {
+  margin: 0;
+  margin-top: 100px;
+  list-style: none;
+  position: relative;
+  padding: 1px 100px;
+  font-size: 13px;
+}
+
+#experience ul li {
+  position: relative;
+  margin-left: 30px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 14px;
+  border-radius: 6px;
+  width: 100%;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.08);
+}
+
+#experience ul li:not(:first-child) {
+  margin-top: 60px;
+}
+#experience ul li > span {
+  width: 2px;
+  height: 100%;
+  background: #fff;
+  left: -30px;
+  top: 0;
+  position: absolute;
+}
+#experienceul li > span:before, #experience ul li > span:after {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  position: absolute;
+  background: #86b7e7;
+  left: -5px;
+  top: 0;
+}
+#experience ul li span:after {
+  top: 100%;
+}
+#experience ul li > div {
+  margin-left: 10px;
+}
+#experience div .title, #experience div .type {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#experience div .info {
+  font-weight: 300;
+}
+
+.title_exp  {
+  margin-bottom: 5rem;
+}
+
+#experience div > div {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+#experience span.number {
+  height: 100%;
+}
+
+#experience span.number span {
+  position: absolute;
+  font-size: 14px;
+  left: -35px;
+  font-weight: bold;
+}
+
+.number {
+  font-size: 14px;
+} */
